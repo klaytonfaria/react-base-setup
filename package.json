@@ -1,7 +1,7 @@
 {
   "name": "react-app-setup",
   "version": "1.0.0",
-  "description": "Basic React app setup with Webpack 3, Redux, Redux-thunk, React-router 4, font-generator, scss, post-css, jest",
+  "description": "Basic React app setup with Webpack 3, Redux, Redux-thunk, React-router 4, font-generator, scss, post-css",
   "private": true,
   "repository": {
     "type": "git",
