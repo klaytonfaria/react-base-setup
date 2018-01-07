@@ -1,0 +1,7 @@
+{
+    "files": ["./icons/*.svg"],
+    "fileName": "fonts/[fontname]-[hash][ext]",
+    "fontName": "spotippos-icons",
+    "classPrefix": "icon-",
+    "baseClass": "icon"
+}
