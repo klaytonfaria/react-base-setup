@@ -1,0 +1,31 @@
+// BASE
+
+// Global settings
+@import 'settings';
+
+// Base setup/resets
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: $base-background-color;
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}

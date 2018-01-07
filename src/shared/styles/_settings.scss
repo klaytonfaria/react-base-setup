@@ -1,0 +1,60 @@
+// Importing colors set
+@import "colors";
+
+// GLOBAL COMPONENTS SETTINGS
+
+// BASE
+$base-background-color: $color-seashell;
+
+// Header
+$component-header-height: 60px;
+$component-header-width: 100%;
+$component-header-background-color: $color-base-medium;
+$component-header-title-font-size: 24px;
+$component-header-title-color: $color-white;
+
+// Logo
+$component-logo-color: $color-white;
+$component-logo-height: 60px;
+$component-logo-width: 107px;
+$component-logo-background-color: $color-base;
+
+// Sidebar
+$component-sidebar-height: 100vh;
+$component-sidebar-width: 107px;
+$component-sidebar-collapsed-width: 50px;
+$component-sidebar-collapsed-transition: .3s;
+$component-sidebar-background-color: $color-base-dark;
+$component-sidebar-font-size: 11px;
+$component-sidebar-color: $color-white;
+
+// Menu
+$component-menu-item-height: 72px;
+$component-menu-item-width: 100%;
+$component-menu-item-radius: 4px;
+$component-menu-item-collapsed-width: 50px;
+$component-menu-item-collapsed-transition: .3s;
+$component-menu-item-background-color: $color-base;
+$component-menu-item-font-size: 11px;
+$component-menu-item-color: $color-white;
+
+// PANEL
+$component-panel-background-color: $color-alabaster;
+$component-panel-shadow: 0 2px 4px 0 $color-black-opaque;
+$component-panel-color: $color-white;
+
+// Card
+$component-card-color: $color-stardust;
+$component-card-id-color: $color-gunsmoke;
+$component-card-id-background-color: $color-white;
+$component-card-id-border: solid 1px $color-mercury;
+$component-card-title-font-size: 18px;
+$component-card-title-font-weight: 400;
+$component-card-title-color: #444;
+$component-card-title-line-height: 1.3;
+$component-card-description-font-size: 14px;
+$component-card-description-color: $color-stardust;
+$component-card-description-line-height: 21px;
+$component-card-footer-border: 1px solid $color-mercury;
+$component-card-footer-background-color: $color-light;
+$component-card-image-background-color: $color-light;
