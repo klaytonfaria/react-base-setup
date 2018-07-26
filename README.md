@@ -1,6 +1,6 @@
 # react-app-setup
 
-> Basic React app setup with Webpack 3, Redux, Redux-thunk, React-router 4, font-generator, scss, post-css, jest
+> Basic React app to control home stock
 
 ## Install
 
@@ -32,11 +32,9 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 
 ## Author
 
-**Klayton Faria**
+**Ruben Tiago Nogueira**
 
-* [Github/klaytonfaria](https://github.com/klaytonfaria)
-* [Twitter/klaytonfaria](http://twitter.com/klaytonfaria)
-* [LinkedIn/klaytonfaria](https://www.linkedin.com/in/klaytonfaria/)
+* [Github/klaytonfaria](https://github.com/rietveldPT)
 
 ## Dependencies
 
