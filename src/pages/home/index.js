@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+import {NavLink} from 'react-router-dom';
 
 export class Home extends Component {
   static displayName = 'Home';
@@ -12,10 +12,14 @@ export class Home extends Component {
 
 
   render() {
-    const { relay, viewer } = this.props;
     return (
       <div>
-      opa
+        <NavLink exact to="/home">
+          Profile
+        </NavLink>
+        <NavLink exact to="/none">
+          None
+        </NavLink>
       </div>
     );
   }

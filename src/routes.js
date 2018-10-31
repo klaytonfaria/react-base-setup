@@ -1,14 +1,19 @@
 import React from 'react';
-import {Route} from 'react-router';
+import {Switch, Route} from 'react-router';
 import {ConnectedRouter} from 'react-router-redux';
 import createHistory from 'history/createBrowserHistory';
-import Home from './screens/home';
+import Home from './pages/home';
 
 const history = createHistory();
 
 const routes = (
   <ConnectedRouter history={history}>
-    <Route path="/" component={Home}/>
+    <Switch>
+      <Route path="/" component={Home}/>
+      <Route render={() => (
+        <div>opsss</div>
+      )} />
+    </Switch>
   </ConnectedRouter>
 );
 
