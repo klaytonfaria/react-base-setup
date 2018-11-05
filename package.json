@@ -13,7 +13,7 @@
     "serve": "webpack-dev-server --config ./webpack.config.js --mode=development --progress",
     "build:dev": "webpack --config ./webpack.config.js --progress --mode development",
     "build:prod": "webpack --config ./webpack.config.js --mode production",
-    "stats": "webpack --config ./webpack.config.js --profile --mode production",
+    "stats": "webpack --config ./webpack.config.js --profile --mode production --progress --json > stats.json",
     "readme": "readme",
     "start:ssr": "next start",
     "build:ssr": "next build",
